@@ -15,7 +15,18 @@ A fullstack Wikipedia-like web application using Django Framework. Users can sea
 
 ## How to run:
 
-* Install Django Framework: `pip install Django`
-* Run the app locally: `python manage.py runserver`
+* Install Django Framework:
+  ```
+  pip install Django
+  ```
+* Initialize the database:
+  ```
+  python manage.py makemigrations
+  python manage.py migrate
+  ```
+* Run the app locally:
+  ```
+  python manage.py runserver
+  ```
 
 
